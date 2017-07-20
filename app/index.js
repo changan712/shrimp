@@ -1,14 +1,11 @@
-
 const  Koa = require('koa');
 
-const  app = new Koa();
+
+const app = new Koa();
 
 
-
-app.use( async (ctx)=>{
-
-        this.body = '1';
-
+app.use(async (ctx)=>{
+    ctx.body ="hellow koa2";
 })
 
-app.listen(8080);
+app.listen(3000); 

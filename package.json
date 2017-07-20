@@ -4,7 +4,8 @@
   "description": "",
   "main": "clock.js",
   "dependencies": {
-    "koa": "^2.3.0"
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0"
   },
   "devDependencies": {},
   "scripts": {
